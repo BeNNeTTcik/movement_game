@@ -8,9 +8,9 @@ import numpy as np
 pygame.init()
 
 # Set up the game window
-screen_width = 1920
-screen_height = 1080
-background_color = pygame.image.load('resource\\background.jpg')
+screen_width = 1792
+screen_height = 1024
+background_color = pygame.image.load("resources\\background.jpg")
 screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption("Movement")
 
@@ -25,7 +25,7 @@ while True:
             sys.exit()
 
     # Fill the screen with a color (black in this case)
-    screen.fill((0, 0, 0))
+    #screen.fill((0, 0, 0))
 
     # Update the display
     pygame.display.flip()
